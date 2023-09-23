@@ -1,19 +1,19 @@
 import './App.css';
 
-import Display from './Display';
+import DisplayAnything, { Paragraph } from './Display';
 import { Button } from './Button';
 
-function App() {
+const App = () => {
   return (
     <div>
-      {/* <div>Hello world</div>
+      {/* <div>hellowwww world!</div>
       <div>hi</div>
       <hr /> */}
-      {/* <Display /> */}
+      {/* <DisplayAnything /> */}
       {/* <Button /> */}
       {/* <Paragraph /> */}
     </div>
   );
-}
+};
 
 export default App;
